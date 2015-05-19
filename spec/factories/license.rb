@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :license do
-    product "MS Word"
-    key "1234-5678-9012-3456"
+    product { Faker::Commerce.product_name }
+    key { Faker::Number.number(15) }
   end
 end
