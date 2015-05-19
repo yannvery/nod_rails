@@ -12,3 +12,9 @@ This is the step 2.
 * Add Database cleaner
 * Add RSpec configuration
 * Add uniqueness validation on License key
+
+=== Step 3
+* Add Factory Girl
+* Add FG configuration
+* Create Licence factory
+* Update create license test

@@ -7,6 +7,8 @@ ActiveRecord::Migration.maintain_test_schema!
 
 RSpec.configure do |config|
   config.use_transactional_fixtures = false
+  config.include FactoryGirl::Syntax::Methods
+  FactoryGirl.find_definitions
 end
 
 # Database cleaner configuration
