@@ -21,4 +21,5 @@ group :development, :test do
   gem 'database_cleaner', '~> 1.4.1', require: false
   gem 'factory_girl', '~> 4.5.0'
   gem 'faker', '~> 1.4.0'
+  gem 'capybara', '~> 2.4.0'
 end
