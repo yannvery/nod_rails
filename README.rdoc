@@ -22,3 +22,7 @@ This is the step 2.
 === Step 4
 * Add faker gem
 * Add a test that use faker
+
+=== Step 5
+* Add capybara
+* Add 1 feature test with page object
