@@ -2,7 +2,13 @@
 
 NOD id a sample app for RSpec and Capybara tests
 
-This is the step 1.
+This is the step 2.
 
+=== Step 1
 * Add License model
 * Create first test
+
+=== Step 2
+* Add Database cleaner
+* Add RSpec configuration
+* Add uniqueness validation on License key
