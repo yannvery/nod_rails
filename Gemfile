@@ -18,4 +18,5 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
+  gem 'database_cleaner', '~> 1.4.1', require: false
 end
